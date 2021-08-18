@@ -1,0 +1,218 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    }
+
+li {
+    float: left;
+    }
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+
+li a:hover {
+    background-color: #111;
+    }
+
+.dropbtn {
+    background-color: purple;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    }
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    }
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.animation {
+    width: 400px;
+    height: 500px;
+	margin: 50px;
+    background: url("jerry.png") no-repeat;
+    position: relative;
+    animation: moveit 2s linear 0s infinite alternate;
+}
+
+/* Standard syntax */
+@keyframes moveit {
+    from {left: 0;}
+    to {left: 65%;}
+}
+
+/* Properties used in prop1.html */
+.center {
+    text-align: center;
+} 
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.underline {
+    text-align: center;
+    text-decoration: underline;
+}
+.linethrough{
+    text-align: center;
+    text-decoration: line-through;
+}
+.overline {
+    text-align: center;
+    text-decoration: overline;
+}
+.decolor{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+.shadow{
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+
+.indent {
+        text-indent: 100px;
+}
+
+/* Properties used in prop2.html */
+.backgroundColor{
+    text-align: center;
+    background-color: yellow;
+}
+
+.backgroundImage{
+    text-align: center;
+    background-image: url("background.jpg");
+}
+
+.border {
+    text-align: center;
+    color: #ff0000;
+    border: 5px solid;
+}
+
+.borderImage {
+    text-align: center;
+    width: 300px;
+    height: 150px;
+    border: 15px solid transparent;
+    border-image: url("background.jpg") 30 30 round;
+} 
+
+.box{
+    width: 150px;
+    height: 150px;
+    background: #ccc;
+    border: 1px solid #999;
+}
+
+.outline{
+    outline-style: solid;
+    outline-color: #0000ff;
+    text-align: center;
+}
+
+.overflow{ 
+    width: 250px;
+    height: 150px;
+    border: 1px solid #cccccc;  
+    overflow: scroll;
+}
+
+/* Properties used in prop3.html  */
+.padding {
+    background: #f0e68c;
+}
+.one {
+    background: #f0e68c;
+    padding: 20px;            
+}
+.two {
+    background: #f0e68c;
+    padding: 35px 15px;            
+}
+.three {
+    background: #f0e68c;
+    padding: 20px 100px 50px;            
+} 
+.four {
+    background: #f0e68c;
+    padding: 10px 30px 50px 150px;            
+}  
+
+.container {
+    width: 125px;
+    height: 125px;
+    perspective: 500px;
+    border: 4px solid #e5a043;
+    background: #fff2dd;
+}
+
+.transformed {
+        transform: translate3d(25px, 25px, 50px);
+}
+
+.position {
+    position: absolute;
+    top: 500px;
+    left: 550px;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    background: blueviolet;
+}
+
+table {
+    width: 250px;
+    border-collapse: separate;            
+}
+table, tr, th, td{
+    border: 1px solid #000000;
+}
+.auto {
+    table-layout: auto;
+}
+td{
+    width: 50%;
+}
