@@ -1,8 +1,15 @@
 # Css-Properties
 This website is a task of Audit Course provided by Vidyalankar Institute of Technolgy and Kids Galaxy
 
-#ScreenShots
+<p>In this task we build a website which contain all the css properties in it</p>
 
+# Requirements:
+<p>Need a web browser which supports HTML and CSS</p>
+
+# How to Run:
+<p>Start the webpage from index.html and from the home page you will be able to navigate through all the webpages the website holds</p>
+
+# Screenshots
 ### Home Page
 ![Home](https://user-images.githubusercontent.com/80825073/129888700-da154ee4-bc01-4772-9d7c-3ef16b150d7c.JPG)
 
